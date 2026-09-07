@@ -753,7 +753,7 @@ onBeforeUnmount(() => {
             {{ t('admin.brand') }}
           </div>
           <div v-if="!sidebarCollapsed" class="text-xs text-muted-foreground mt-1">{{ t('admin.layout.controlRoom') }}</div>
-          <div v-if="sidebarCollapsed" class="text-lg font-semibold tracking-tight text-center">D&J</div>
+          <div v-if="sidebarCollapsed" class="text-lg font-semibold tracking-tight text-center">Shop-TGaaaa</div>
         </div>
         <div v-if="!sidebarCollapsed" class="px-3 pb-2">
           <Input
