@@ -130,7 +130,7 @@ const config = computed(() => appStore.config)
 
 const brandSiteName = computed(() => {
   const siteName = config.value?.brand?.site_name
-  return typeof siteName === 'string' && siteName.trim() ? siteName.trim() : 'Dujiao-Next'
+  return typeof siteName === 'string' && siteName.trim() ? siteName.trim() : 'Shop-TGaaaat'
 })
 
 const brandDescription = computed(() => {
